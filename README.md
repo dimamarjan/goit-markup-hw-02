@@ -1,2 +1,1 @@
-# goit-markup-hw-02
-HW 2
+# [Ссылка на GitHub Pages](https://dimamarjan.github.io/goit-markup-hw-01/ "Задание №1")
