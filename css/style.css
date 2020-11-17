@@ -1,36 +1,53 @@
+:root {
+  --primary-text-color: #000000;
+  --secondary-text-color: #757575;
+  --main-page-colorize: #2196f3;
+  --primary-bg-color: #ececec;
+}
+
 body {
-  background-color: #ececec;
-  color: #757575;
+  background-color: var(--primary-bg-color);
+  color: var(--secondary-text-color);
+}
+
+/* current page nav accent */
+.main-nav .link.current {
+  color: var(--main-page-colorize);
 }
 
 /* logo */
 .logo {
-  color: #000000;
+  color: var(--primary-text-color);
 }
 
 .logo-web,
 .logo:hover {
-  color: #2196f3;
+  color: var(--main-page-colorize);
 }
 
 /* Nav */
 .main-nav .link,
 .contact-nav .link {
-  color: #000000;
+  color: var(--primary-text-color);
 }
 
 .main-nav .link:hover,
 .contact-nav .link:hover,
 .contact-nav .link:focus {
-  color: #2196f3;
+  color: var(--main-page-colorize);
 }
 
 /* main */
 .section-title {
-  color: #000000;
+  color: var(--primary-text-color);
 }
 
 /* hero */
 .hero-title {
-  color: #000000;
+  color: var(--primary-text-color);
+}
+
+.button {
+  background-color: var(--main-page-colorize);
+  color: var(--primary-bg-color);
 }
