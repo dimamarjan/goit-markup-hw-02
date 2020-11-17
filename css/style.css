@@ -1,0 +1,36 @@
+body {
+  background-color: #ececec;
+  color: #757575;
+}
+
+/* logo */
+.logo {
+  color: #000000;
+}
+
+.logo-web,
+.logo:hover {
+  color: #2196f3;
+}
+
+/* Nav */
+.main-nav .link,
+.contact-nav .link {
+  color: #000000;
+}
+
+.main-nav .link:hover,
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: #2196f3;
+}
+
+/* main */
+.section-title {
+  color: #000000;
+}
+
+/* hero */
+.hero-title {
+  color: #000000;
+}
