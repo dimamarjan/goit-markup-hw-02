@@ -8,6 +8,9 @@
 body {
   background-color: var(--primary-bg-color);
   color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
+
+  font-family: Roboto, sans-serif;
 }
 
 /* current page nav accent */
@@ -18,10 +21,14 @@ body {
 /* logo */
 .logo {
   color: var(--primary-text-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
-.logo-web,
-.logo:hover {
+.primari-logo {
   color: var(--main-page-colorize);
 }
 
@@ -29,6 +36,11 @@ body {
 .main-nav .link,
 .contact-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .main-nav .link:hover,
@@ -45,9 +57,25 @@ body {
 /* hero */
 .hero-title {
   color: var(--primary-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .button {
   background-color: var(--main-page-colorize);
   color: var(--primary-bg-color);
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  letter-spacing: 0.06em;
+}
+
+/* adress */
+address {
+  font-style: normal;
 }
