@@ -1,7 +1,7 @@
 :root {
   --primary-text-color: #000000;
   --secondary-text-color: #757575;
-  --main-page-colorize: #2196f3;
+  --page-accent: #2196f3;
   --primary-bg-color: #ececec;
 }
 
@@ -15,7 +15,7 @@ body {
 
 /* current page nav accent */
 .main-nav .link.current {
-  color: var(--main-page-colorize);
+  color: var(--page-accent);
 }
 
 /* logo */
@@ -29,7 +29,7 @@ body {
 }
 
 .primari-logo {
-  color: var(--main-page-colorize);
+  color: var(--page-accent);
 }
 
 /* Nav */
@@ -46,7 +46,7 @@ body {
 .main-nav .link:hover,
 .contact-nav .link:hover,
 .contact-nav .link:focus {
-  color: var(--main-page-colorize);
+  color: var(--page-accent);
 }
 
 /* main */
@@ -64,7 +64,7 @@ body {
 }
 
 .button {
-  background-color: var(--main-page-colorize);
+  background-color: var(--page-accent);
   color: var(--primary-bg-color);
 
   font-weight: bold;
