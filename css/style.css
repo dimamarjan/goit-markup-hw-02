@@ -61,7 +61,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
 }
 
 .button {
@@ -71,7 +70,6 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
-  align-items: center;
   letter-spacing: 0.06em;
 }
 
