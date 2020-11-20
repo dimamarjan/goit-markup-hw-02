@@ -7,9 +7,8 @@
 
 body {
   background-color: var(--primary-bg-color);
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   letter-spacing: 0.03em;
-
   font-family: Roboto, sans-serif;
 }
 
@@ -20,10 +19,8 @@ body {
 
 /* logo */
 .logo {
-  color: var(--primary-text-color);
-
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
@@ -32,11 +29,26 @@ body {
   color: var(--page-accent);
 }
 
-/* Nav */
+/* hero */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+}
+
+.button {
+  background-color: var(--page-accent);
+  color: var(--primary-bg-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+/* Nav main page */
 .main-nav .link,
 .contact-nav .link {
   color: var(--primary-text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -49,31 +61,68 @@ body {
   color: var(--page-accent);
 }
 
-/* main */
-.section-title {
-  color: var(--primary-text-color);
+/* main section on main page */
+.section .section-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
-/* hero */
-.hero-title {
-  color: var(--primary-text-color);
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
+.section .text {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
-.button {
-  background-color: var(--page-accent);
-  color: var(--primary-bg-color);
+.section .example-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+}
 
-  font-weight: bold;
+/* team section */
+.team-section .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  line-height: 1.7;
+}
+
+.team-section .headline {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
+  line-height: 1.2;
+}
+
+.text-profession {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 /* adress */
-address {
+.address {
   font-style: normal;
+}
+
+.address .link {
+  color: #ffffff;
+}
+
+.address .link.primary {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address .link.secondary {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
