@@ -201,3 +201,7 @@ body {
 .projects .filter-item:focus {
   color: var(--accent-color);
 }
+
+.projects .filter-item {
+  text-decoration: none;
+}
