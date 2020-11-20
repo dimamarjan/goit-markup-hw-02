@@ -1,12 +1,13 @@
 :root {
   --primary-text-color: #000000;
   --secondary-text-color: #757575;
-  --page-accent: #2196f3;
-  --primary-bg-color: #ececec;
+  --accent-color: #2196f3;
+  --accent-color-text: #ffffff;
+  --section-bg-color: #f5f4fa;
 }
 
 body {
-  background-color: var(--primary-bg-color);
+  background-color: #ffffff;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
   font-family: Roboto, sans-serif;
@@ -14,11 +15,12 @@ body {
 
 /* current page nav accent */
 .main-nav .link.current {
-  color: var(--page-accent);
+  color: var(--accent-color);
 }
 
 /* logo */
 .logo {
+  color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -26,26 +28,10 @@ body {
 }
 
 .primari-logo {
-  color: var(--page-accent);
+  color: var(--accent-color);
 }
 
-/* hero */
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-}
-
-.button {
-  background-color: var(--page-accent);
-  color: var(--primary-bg-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-}
-
-/* Nav main page */
+/* Nav section */
 .main-nav .link,
 .contact-nav .link {
   color: var(--primary-text-color);
@@ -56,12 +42,54 @@ body {
 }
 
 .main-nav .link:hover,
+.main-nav .link:focus,
 .contact-nav .link:hover,
 .contact-nav .link:focus {
-  color: var(--page-accent);
+  color: var(--accent-color);
 }
 
-/* main section on main page */
+/* adress */
+.address {
+  font-style: normal;
+}
+
+.address .link {
+  color: var(--accent-color-text);
+}
+
+.address .link.primary {
+  color: var(--accent-color-text);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address .link.secondary {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* index.html */
+
+/* hero */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+/* main section */
 .section .section-title {
   font-family: Roboto;
   font-weight: 700;
@@ -104,25 +132,53 @@ body {
   line-height: 19px;
 }
 
-/* adress */
-.address {
-  font-style: normal;
+/* portfolio.html */
+
+/* h1 */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.address .link {
-  color: #ffffff;
+/* filter buttons */
+.filter .radio {
+  font-family: Roboto;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
-.address .link.primary {
-  color: #ffffff;
+.filter .radio:hover,
+.filter .radio:focus {
+  color: var(--accent-color-text);
+  background-color: var(--accent-color);
+}
+
+/* projexts section */
+.projects .project-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.projects .project-text {
+  color: var(--secondary-text-color);
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
-.address .link.secondary {
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
+.projects .filter-item:focus {
+  color: var(--accent-color);
 }
