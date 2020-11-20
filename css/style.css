@@ -22,6 +22,7 @@ body {
 .logo {
   color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
+  text-decoration: none;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -32,6 +33,7 @@ body {
 }
 
 /* Nav section */
+
 .main-nav .link,
 .contact-nav .link {
   color: var(--primary-text-color);
@@ -39,6 +41,16 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contact-nav .link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .main-nav .link:hover,
@@ -50,18 +62,20 @@ body {
 
 /* adress */
 .address {
+  background-color: var(--primary-text-color);
   font-style: normal;
 }
 
 .address .link {
   color: var(--accent-color-text);
+  text-decoration: none;
+  line-height: 1.7;
 }
 
 .address .link.primary {
   color: var(--accent-color-text);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
 }
 
 .address .link.secondary {
@@ -74,15 +88,16 @@ body {
 /* index.html */
 
 /* hero */
-.hero-title {
+.hero .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
 }
 
-.button {
+.hero .button {
   background-color: var(--accent-color);
-  color: var(--primary-bg-color);
+  color: var(--accent-color-text);
+  text-decoration: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -112,6 +127,10 @@ body {
 }
 
 /* team section */
+.team-section {
+  background-color: var(--section-bg-color);
+}
+
 .team-section .section-title {
   font-weight: 700;
   font-size: 36px;
