@@ -94,7 +94,7 @@ ul {
 
 /* --------------- Header and Footer end --------------- */
 
-/* --------------- index.html start --------------- */
+/* --------------- INDEX.HTML START --------------- */
 
 /* hero */
 .hero .hero-title {
@@ -161,9 +161,9 @@ ul {
   line-height: 19px;
 }
 
-/* --------------- index.html end --------------- */
+/* --------------- INDEX.HTML END --------------- */
 
-/* --------------- portfolio.html start --------------- */
+/* --------------- PORTFOLIO.HTML START --------------- */
 
 /* h1 */
 .visually-hidden {
@@ -214,4 +214,4 @@ ul {
   color: var(--accent-color);
 }
 
-/* --------------- portfolio.html end --------------- */
+/* --------------- PORTFOLIO.HTML END --------------- */
