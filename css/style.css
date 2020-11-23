@@ -22,15 +22,15 @@ ul {
   padding: 0;
 }
 
-/* ---------- Header and Footer start ---------- */
-
 /* current page nav accent */
 .main-nav .link.current {
   color: var(--accent-color);
 }
 
+/* ---------- Header and Footer start ---------- */
+
 /* logo */
-.logo {
+.logo-nav {
   color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -38,7 +38,7 @@ ul {
   line-height: 1.2;
 }
 
-.primari-logo {
+.logo-main {
   color: var(--accent-color);
 }
 
@@ -69,32 +69,33 @@ ul {
 }
 
 /* adress */
+
 .address {
   background-color: var(--primary-text-color);
   font-style: normal;
 }
 
-.address .link {
+.address .logo-address {
+  color: var(--accent-color-text);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.address-links .link {
   color: var(--accent-color-text);
   line-height: 1.7;
 }
 
-.address .link.primary {
-  color: var(--accent-color-text);
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.address .link.secondary {
+.address-links .link.contact {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
 }
 
 /* --------------- Header and Footer end --------------- */
 
 /* --------------- index.html start --------------- */
+
 /* hero */
 .hero .hero-title {
   font-weight: 900;
@@ -103,15 +104,17 @@ ul {
 }
 
 .hero .button {
+  color: var(--section-bg-color);
   background-color: var(--accent-color);
-  color: var(--accent-color-text);
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.87;
   letter-spacing: 0.06em;
 }
 
-/* main section */
+/* main content */
+
 .section .section-title {
   font-family: Roboto;
   font-weight: 700;
@@ -160,7 +163,7 @@ ul {
 
 /* --------------- index.html end --------------- */
 
-/* portfolio.html */
+/* --------------- portfolio.html start --------------- */
 
 /* h1 */
 .visually-hidden {
@@ -210,3 +213,5 @@ ul {
 .projects .filter-item:focus {
   color: var(--accent-color);
 }
+
+/* --------------- portfolio.html end --------------- */
