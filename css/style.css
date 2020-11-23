@@ -36,6 +36,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .logo-main {
@@ -81,10 +82,14 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .address-links .link {
   color: var(--accent-color-text);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.7;
 }
 
